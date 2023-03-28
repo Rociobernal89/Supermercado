@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <supermercado_uno>
+         <id>1</id>
+         <nombre>Aldi</nombre>
+         <direccion>Calle Victoria, 26</direccion>
+         <geolocalizacion>36°40'5.981 N</geolocalizacion>
+         <geolocalizacion>4°28'19.179 W</geolocalizacion>
+         <lugar>Malaga</lugar>
+         <horarioApertura>Lunes a Sábado de 9 - a 21h</horarioApertura>
+         <productos>
+             <id>unoAldi</id>
+             <nombre>leche entera</nombre>
+             <seccion>lácteos</seccion>
+             <descripcion>leche entera Aldi</descripcion>
+             <origen>España</origen>
+             <oferta>false</oferta>
+             <pvp>1.5</pvp>
+             <formato>1 litro</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>dosAldi</id>
+             <nombre>Lubina</nombre>
+             <seccion>pescadería</seccion>
+             <descripcion>Lubina fresca</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>24/06/23</vigenciaOferta>
+             <vigenciaOferta>28/06/23</vigenciaOferta>
+             <pvp>3.75</pvp>
+             <pvpRebajado>2.55</pvpRebajado>
+             <formato>200 grs.</formato>
+             <habitual>false</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+         <productos>
+             <id>tresAldi</id>
+             <nombre>huevos</nombre>
+             <seccion>lácteos</seccion>
+             <descripcion>huevos gallinas camperas</descripcion>
+             <origen>España</origen>
+             <oferta>false</oferta>
+             <pvp>1.99</pvp>
+             <formato>media docena</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>cuatroAldi</id>
+             <nombre>peras</nombre>
+             <seccion>frutería</seccion>
+             <descripcion>peras en malla 2kg</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>24/06/23</vigenciaOferta>
+             <vigenciaOferta>24/07/23</vigenciaOferta>
+             <pvp>1.69</pvp>
+             <pvpRebajado>0.95</pvpRebajado>
+             <formato>2 kg.</formato>
+             <habitual>true</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+         <productos>
+             <id>cincoAldi</id>
+             <nombre>queso fresco</nombre>
+             <seccion>lácteos</seccion>
+             <descripcion>queso fresco vaca</descripcion>
+             <origen>España</origen>
+             <oferta>false</oferta>
+             <pvp>4.55</pvp>
+             <formato>500 grs.</formato>
+             <habitual>false</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+     </supermercado_uno>
+     <supermercado_dos>
+         <id>2</id>
+         <nombre>Lidl</nombre>
+         <direccion>Calle villanueva de algaidas, 6</direccion>
+         <geolocalizacion>36°41'11.321 N </geolocalizacion>
+         <geolocalizacion>4°27'22.711 W</geolocalizacion>
+         <lugar>Malaga</lugar>
+         <horarioApertura>Lunes a Sábado de 9 - 21:30h</horarioApertura>
+         <productos>
+             <id>unoLidl</id>
+             <nombre>yogur natural</nombre>
+             <seccion>lácteos</seccion>
+             <descripcion>yogur natural sin azúcar</descripcion>
+             <origen>Portugal</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>1/05/23</vigenciaOferta>
+             <pvp>1.65</pvp>
+             <pvpRebajado>1.4</pvpRebajado>
+             <formato>pack de 6 x 125 grs.</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>dosLidl</id>
+             <nombre>pan de molde</nombre>
+             <seccion>panadería</seccion>
+             <descripcion>pan de molde familiar</descripcion>
+             <origen>Alemania</origen>
+             <oferta>false</oferta>
+             <pvp>2.75</pvp>
+             <formato>1 kg.</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>tresLidl</id>
+             <nombre>aceite de oliva</nombre>
+             <seccion>conservas</seccion>
+             <descripcion>aceite de oliva virgen extra</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>01/06/23</vigenciaOferta>
+             <vigenciaOferta>30/06/23</vigenciaOferta>
+             <pvp>1.85</pvp>
+             <pvpRebajado>1.45</pvpRebajado>
+             <formato>1 L.</formato>
+             <habitual>true</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+         <productos>
+             <id>cuatroLidl</id>
+             <nombre>brócoli</nombre>
+             <seccion>frutería</seccion>
+             <descripcion>brócoli manojo huerta</descripcion>
+             <origen>Portugal</origen>
+             <oferta>false</oferta>
+             <pvp>0.85</pvp>
+             <formato>1 kg.</formato>
+             <habitual>false</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>cincoLidl</id>
+             <nombre>garbanzos</nombre>
+             <seccion>conservas</seccion>
+             <descripcion>garbanzos cocidos conserva</descripcion>
+             <origen>España</origen>
+             <oferta>false</oferta>
+             <pvp>1.78</pvp>
+             <formato>500 grs.</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+     </supermercado_dos>
+     <supermercado_tres>
+         <id>3</id>
+         <nombre>Carrefour</nombre>
+         <direccion>Avenida de Velazquez, 241</direccion>
+         <geolocalizacion>36°41'11.422 N</geolocalizacion>
+         <geolocalizacion>4°27'31.940 W</geolocalizacion>
+         <lugar>Malaga</lugar>
+         <horarioApertura>Lunes a Sábado de 9:30 - 22h</horarioApertura>
+         <productos>
+             <id>unoCarrefour</id>
+             <nombre>cerveza</nombre>
+             <seccion>bebidas y refrescos</seccion>
+             <descripcion>cerveza carrefour</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>1/06/23</vigenciaOferta>
+             <vigenciaOferta>1/07/23</vigenciaOferta>
+             <pvp>8.55</pvp>
+             <pvpRebajado>6.4</pvpRebajado>
+             <formato>pack de 6 x 33 cl.</formato>
+             <habitual>false</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+         <productos>
+             <id>dosCarrefour</id>
+             <nombre>calamar</nombre>
+             <seccion>congelados</seccion>
+             <descripcion>calamar troceado congelado</descripcion>
+             <origen>Marruecos</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>27/06/23</vigenciaOferta>
+             <vigenciaOferta>30/06/23</vigenciaOferta>
+             <pvp>5.35</pvp>
+             <pvpRebajado>3.95</pvpRebajado>
+             <formato>1 kg.</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>tresCarrefour</id>
+             <nombre>arroz</nombre>
+             <seccion>pastas y arroz</seccion>
+             <descripcion>arroz carrefour</descripcion>
+             <origen>Portugal</origen>
+             <oferta>false</oferta>
+             <pvp>2.3</pvp>
+             <formato>1 kg.</formato>
+             <habitual>false</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+         <productos>
+             <id>cuatroCarrefour</id>
+             <nombre>pimienta molida</nombre>
+             <seccion>salsas y condimentos</seccion>
+             <descripcion>pimienta mezcla molida molinillo</descripcion>
+             <origen>España</origen>
+             <oferta>false</oferta>
+             <pvp>0.65</pvp>
+             <formato>45 grs.</formato>
+             <habitual>true</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+         <productos>
+             <id>cincoCarrefour</id>
+             <nombre>chocolate</nombre>
+             <seccion>dulces</seccion>
+             <descripcion>chocolate negro 85%</descripcion>
+             <origen>Ecuador</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>27/06/23</vigenciaOferta>
+             <vigenciaOferta>30/06/23</vigenciaOferta>
+             <pvp>2.75</pvp>
+             <pvpRebajado>2</pvpRebajado>
+             <formato>200 grs.</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+     </supermercado_tres>
+ </root>

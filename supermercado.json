@@ -1,0 +1,259 @@
+{
+  "supermercado uno": [
+    {
+      "id": 1,
+      "nombre": "Aldi",
+      "direccion": "Calle Victoria, 26",
+      "geolocalizacion": [
+        "36°40'5.981 N",
+        "4°28'19.179 W "
+      ],
+      "lugar": "Malaga",
+      "horarioApertura": "Lunes a Sábado de 9 - a 21h",
+      "productos": [
+        {
+          "id": "unoAldi",
+          "nombre": "leche entera",
+          "seccion": "lácteos",
+          "descripcion": "leche entera Aldi",
+          "origen": "España",
+          "oferta": false,
+          "pvp": 1.5,
+          "formato": "1 litro",
+          "habitual": true,
+          "adquirido": true
+        },
+        {
+          "id": "dosAldi",
+          "nombre": "Lubina",
+          "seccion": "pescadería",
+          "descripcion": "Lubina fresca",
+          "origen": "España",
+          "oferta": true,
+          "vigenciaOferta": [
+            "24/06/23",
+            "28/06/23"
+          ],
+          "pvp": 3.75,
+          "pvpRebajado": 2.55,
+          "formato": "200 grs.",
+          "habitual": false,
+          "adquirido": false
+        },
+        {
+          "id": "tresAldi",
+          "nombre": "huevos",
+          "seccion": "lácteos",
+          "descripcion": "huevos gallinas camperas",
+          "origen": "España",
+          "oferta": false,
+          "pvp": 1.99,
+          "formato": "media docena",
+          "habitual": true,
+          "adquirido": true
+        },
+        {
+          "id": "cuatroAldi",
+          "nombre": "peras",
+          "seccion": "frutería",
+          "descripcion": "peras en malla 2kg",
+          "origen": "España",
+          "oferta": true,
+          "vigenciaOferta": [
+            "24/06/23",
+            "24/07/23"
+          ],
+          "pvp": 1.69,
+          "pvpRebajado": 0.95,
+          "formato": "2 kg.",
+          "habitual": true,
+          "adquirido": false
+        },
+        {
+          "id": "cincoAldi",
+          "nombre": "queso fresco",
+          "seccion": "lácteos",
+          "descripcion": "queso fresco vaca",
+          "origen": "España",
+          "oferta": false,
+          "pvp": 4.55,
+          "formato": "500 grs.",
+          "habitual": false,
+          "adquirido": true
+        }
+      ]
+    }
+  ],
+  "supermercado dos": [
+    {
+      "id": 2,
+      "nombre": "Lidl",
+      "direccion": "Calle villanueva de algaidas, 6",
+      "geolocalizacion": [
+        "36°41'11.321 N ",
+        "4°27'22.711 W"
+      ],
+      "lugar": "Malaga",
+      "horarioApertura": "Lunes a Sábado de 9 - 21:30h",
+      "productos": [
+        {
+          "id": "unoLidl",
+          "nombre": "yogur natural",
+          "seccion": "lácteos",
+          "descripcion": "yogur natural sin azúcar",
+          "origen": "Portugal",
+          "oferta": true,
+          "vigenciaOferta": "1/05/23",
+          "pvp": 1.65,
+          "pvpRebajado": 1.4,
+          "formato": "pack de 6 x 125 grs.",
+          "habitual": true,
+          "adquirido": true
+        },
+        {
+          "id": "dosLidl",
+          "nombre": "pan de molde",
+          "seccion": "panadería",
+          "descripcion": "pan de molde familiar",
+          "origen": "Alemania",
+          "oferta": false,
+          "pvp": 2.75,
+          "formato": "1 kg.",
+          "habitual": true,
+          "adquirido": true
+        },
+        {
+          "id": "tresLidl",
+          "nombre": "aceite de oliva",
+          "seccion": "conservas",
+          "descripcion": "aceite de oliva virgen extra",
+          "origen": "España",
+          "oferta": true,
+          "vigenciaOferta": [
+            "01/06/23",
+            "30/06/23"
+          ],
+          "pvp": 1.85,
+          "pvpRebajado": 1.45,
+          "formato": "1 L.",
+          "habitual": true,
+          "adquirido": false
+        },
+        {
+          "id": "cuatroLidl",
+          "nombre": "brócoli",
+          "seccion": "frutería",
+          "descripcion": "brócoli manojo huerta",
+          "origen": "Portugal",
+          "oferta": false,
+          "pvp": 0.85,
+          "formato": "1 kg.",
+          "habitual": false,
+          "adquirido": true
+        },
+        {
+          "id": "cincoLidl",
+          "nombre": "garbanzos",
+          "seccion": "conservas",
+          "descripcion": "garbanzos cocidos conserva",
+          "origen": "España",
+          "oferta": false,
+          "pvp": 1.78,
+          "formato": "500 grs.",
+          "habitual": true,
+          "adquirido": true
+        }
+      ]
+    }
+  ],
+  "supermercado tres": [
+    {
+      "id": 3,
+      "nombre": "Carrefour",
+      "direccion": "Avenida de Velazquez, 241",
+      "geolocalizacion": [
+        "36°41'11.422 N",
+        "4°27'31.940 W "
+      ],
+      "lugar": "Malaga",
+      "horarioApertura": "Lunes a Sábado de 9:30 - 22h",
+      "productos": [
+        {
+          "id": "unoCarrefour",
+          "nombre": "cerveza",
+          "seccion": "bebidas y refrescos",
+          "descripcion": "cerveza carrefour",
+          "origen": "España",
+          "oferta": true,
+          "vigenciaOferta": [
+            "1/06/23",
+            "1/07/23"
+          ],
+          "pvp": 8.55,
+          "pvpRebajado": 6.4,
+          "formato": "pack de 6 x 33 cl.",
+          "habitual": false,
+          "adquirido": false
+        },
+        {
+          "id": "dosCarrefour",
+          "nombre": "calamar",
+          "seccion": "congelados",
+          "descripcion": "calamar troceado congelado",
+          "origen": "Marruecos",
+          "oferta": true,
+          "vigenciaOferta": [
+            "27/06/23",
+            "30/06/23"
+          ],
+          "pvp": 5.35,
+          "pvpRebajado": 3.95,
+          "formato": "1 kg.",
+          "habitual": true,
+          "adquirido": true
+        },
+        {
+          "id": "tresCarrefour",
+          "nombre": "arroz",
+          "seccion": "pastas y arroz",
+          "descripcion": "arroz carrefour",
+          "origen": "Portugal",
+          "oferta": false,
+          "pvp": 2.3,
+          "formato": "1 kg.",
+          "habitual": false,
+          "adquirido": false
+        },
+        {
+          "id": "cuatroCarrefour",
+          "nombre": "pimienta molida",
+          "seccion": "salsas y condimentos",
+          "descripcion": "pimienta mezcla molida molinillo",
+          "origen": "España",
+          "oferta": false,
+          "pvp": 0.65,
+          "formato": "45 grs.",
+          "habitual": true,
+          "adquirido": false
+        },
+        {
+          "id": "cincoCarrefour",
+          "nombre": "chocolate",
+          "seccion": "dulces",
+          "descripcion": "chocolate negro 85%",
+          "origen": "Ecuador",
+          "oferta": true,
+          "vigenciaOferta": [
+            "27/06/23",
+            "30/06/23"
+          ],
+          "pvp": 2.75,
+          "pvpRebajado": 2,
+          "formato": "200 grs.",
+          "habitual": true,
+          "adquirido": true
+        }
+      ]
+    }
+  ]
+}
